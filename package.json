@@ -1,18 +1,16 @@
 {
-  "name": "hack-base",
+  "name": "snake",
   "version": "0.0.0",
-  "description": "Gets you up and running quickly in a hackathon.",
+  "description": "Snake game",
   "main": "bin/www",
   "scripts": {
     "start": "mkdir -p pouch-data && node bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ryan Muller <ryan@muller.io>",
+  "author": "Ryan Muller <ryan@muller.io> and Otto Awqatty <oawqatty@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ampersand-model": "~4.0.3",
-    "ampersand-rest-collection": "~2.0.4",
-    "ampersand-view": "~7.2.0",
+    "backbone": "^1.1.2",
     "browserify-middleware": "~4.1.0",
     "coffee-script": "~1.8.0",
     "coffeeify": "~1.0.0",
