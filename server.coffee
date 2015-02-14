@@ -12,7 +12,7 @@ PouchDB = require 'pouchdb'
 app.use '/db', require('express-pouchdb') PouchDB.defaults
   prefix: path.join(__dirname, 'pouch-data/')
 
-app.use '/app.js', browserify './public/app.coffee'
+app.use '/app.js', browserify './public/app.js'
 app.use require('less-middleware')(path.join __dirname, 'public')
 app.use express.static path.join(__dirname, 'public')
 
